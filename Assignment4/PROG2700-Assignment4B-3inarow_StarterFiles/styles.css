@@ -1,0 +1,48 @@
+#attrib {
+    font-size: 1.8vw;
+}
+
+table {
+    border: 0.2vw solid;
+    height: 40vw;
+    width: 40vw;
+    font-size: 2vw;
+    text-align: center;
+}
+
+td.currentState-0 {
+    background: gray;
+    color: gray;
+}
+td.currentState-1 {
+    background: blue;
+    color: blue;
+}
+td.currentState-2 {
+    background: white;
+    color: white;
+}
+
+#amistake {
+    width: 1.5vw;
+    height: 1.5vw;
+}
+
+button {
+    font-size: 1.8vw;
+    height: 3vw;
+    width: 15vw;
+}
+
+div.showmistakes > * > * > * > td.currentState-1.correctState-2.canToggle-true {
+    color: black;
+}
+
+div.showmistakes > * > * > * > td.currentState-2.correctState-1.canToggle-true {
+    color: black;
+}
+
+div.showmistakes > * > * > * > td.currentState-0.canToggle-true {
+    color: black;
+}
+

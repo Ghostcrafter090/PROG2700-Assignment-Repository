@@ -1,0 +1,1 @@
+Note: file.json is used for testing purposes through python, it is my primary language of choice for everything and I am using it to further peice together structure of the json file.
